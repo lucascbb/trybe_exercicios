@@ -1,0 +1,14 @@
+albatroz;
+tartarugaalce;
+alpaca;
+anaconda;
+anchova;
+andorinha;
+anta;
+antílope;
+aranha;
+arara;
+asno;
+atum;
+avestruz
+zebra
