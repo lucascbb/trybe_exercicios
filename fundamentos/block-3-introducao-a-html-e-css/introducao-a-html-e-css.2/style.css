@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.todos{
+    text-align: center;
+
+}
+.UM{
+    width: 12vmax;
+    height: 12vmax;
+    background-color: blue;
+    display: inline-block;
+}
+.DOIS{
+    width: 12vmax;
+    height: 12vmax;
+    background-color: red;
+    display: inline-block;
+}
+.TRES{
+    width: 12vmax;
+    height: 12vmax;
+    background-color: purple;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+    font-size: 3.5vmax;
+    margin-top: 3vmax;
+    margin-bottom: 2vmax;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+    width: 36vmax;
+    padding-top: 2vmax;
+    font-size: 1vmax;
+}
