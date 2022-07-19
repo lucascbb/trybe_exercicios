@@ -34,7 +34,7 @@ header ul{
 }
 
 main{
-    background: linear-gradient(to top, #5FC3E4, #be5611);
+    background: linear-gradient(to top, #ffffff, #be5611);
     text-align: justify;
     margin-top: -80px;
 }
@@ -56,8 +56,9 @@ section p{
     
     
 }
-section img{
-    margin-left: 100px;
+article img{
+    margin-left: 620px;
+    
 }
 
 
