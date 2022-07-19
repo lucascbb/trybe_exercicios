@@ -38,3 +38,21 @@ section h1{
     margin-bottom: -30px;
     font-size: 25px;
 }
+article p{
+    color: black;
+    font-size: 30px;
+}
+article img{
+    margin-left: 100px;
+}
+
+
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+}
