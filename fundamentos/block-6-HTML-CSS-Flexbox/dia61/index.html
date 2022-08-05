@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 6.1 - Input, Types, attributtes</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+<form action="">
+
+    <label for="mail"><strong>E-mail: </strong> 
+    <input type="email" placeholder="Digite seu E-mail" name="email" autocomplete="off" id="mail" autofocus required>
+    
+    <label for="pin"> <strong>Senha: </strong>
+    <input type="password" placeholder="Digite sua Senha"name="senha" id="pin" required>
+    
+    <input type="checkbox" name="login" id=""> Lembre-me
+    <button type="submit" name="login" >Enviar</button>
+    <br>
+    <br>
+    <label for="input-estado"><strong>Estado em que voce mora:</strong>
+    <select name="estado" id="input-estado">
+    <option value="SP">Sao paulo</option>
+    <option value="BA">Salvador</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="RJ">Rio de Janeiro</option>
+    </select>
+    <br>
+    <br>
+    <label for="sobre-mim"><strong> Sobre mim: </strong>
+        <br>
+    <textarea name="sobre-mim" id="sobre-mim" cols="70" rows="5"></textarea>
+        <br>
+        <br>
+    <label for="email-mkt"><strong>Deseja receber email marketing:</strong>
+    <input type="checkbox" name="email-mkt" id="email-mkt">
+
+    <button type="submit "> Enviar formulario</button>
+
+</form>
+    
+
+
+
+
+
+
+
+<script src="script.js"></script> 
+</body>
+</html>
