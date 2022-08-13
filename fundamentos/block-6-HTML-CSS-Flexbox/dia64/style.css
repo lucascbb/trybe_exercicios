@@ -1,0 +1,39 @@
+    .container {
+        border: 1px solid black;
+        height: 250px;
+        margin: auto;
+        width: 500px;
+        display: flex;       
+      }
+
+.box {
+        align-items: center;
+        width:80px;
+        background-color: aqua;
+        border: 1px solid black;
+      }
+.four{
+  align-self: inherit;
+
+
+}
+
+      .container > .box:nth-child(1){
+        order: 3;
+        
+        flex-shrink: 1;
+        flex-basis: auto;
+      }
+      .container > .box:nth-child(2){
+        background-color: pink;
+        order: 4; flex-grow: 100;
+      }
+      .container > .box:nth-child(3){
+        background-color:rgb(215, 255, 192);
+        order: 2; 
+        flex-grow: 1;
+      }
+      .container > .box:nth-child(4){
+        background-color: antiquewhite;
+        order: 1;
+      }

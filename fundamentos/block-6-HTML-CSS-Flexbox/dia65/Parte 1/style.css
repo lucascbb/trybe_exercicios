@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: -10;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    margin-left: 20px;
+}
+
+article {}
+
+h1 {
+    font: size 20px;
+    ;
+}
+
+h2 {}
+
+img {
+    max-width: 100%;
+    ;
+}
+
+main {}
+
+section {}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: .8em;
+}
+@media screen and (max-width: 499px) {
+
+    h1{
+        font-size: 4.2vh;
+        text-align: center;
+    }
+    h2 {
+        font-size: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        border
+    }
+
+    p {
+        font-size: 1rem;
+        margin-right: 30px;
+        margin-left: 40px;
+        text-justify: auto;
+    }
+    .imgPai{
+        text-align: center;
+        display: flex;
+        flex-flow: wrap;
+    }
+    figure{
+        display: flex;
+        flex-flow:  wrap;
+        width: 50%;
+        text-align: center;
+        justify-content: space-around;
+        margin: 20px 0 20px 0;
+        
+    }
+
+    img {
+        width: 85%;
+    }
+
+    figcaption {
+        font-size: 80%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 959px) and (min-width: 500px) {
+
+    h1{
+        font-size: 4vh;
+        text-align: center;
+    }
+    h2 {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-right: 60px;
+        margin-left: 40px;
+        text-justify: auto;
+    }
+    .imgPai{
+        text-align: center;
+        display: flex;
+        flex-flow: wrap;
+    }
+    figure{
+        display: flex;
+        flex-flow:  wrap;
+        width: 50%;
+        text-align: center;
+        justify-content: space-around;
+        margin: 20px 0 20px 0;
+        
+    }
+
+    img {
+        width: 75%;
+    }
+
+    figcaption {
+        font-size: 130%;
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 960px){
+    body {
+        background-color: rgb(120, 121, 84);
+    }
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .imgPai {
+        display: flex;
+        flex-direction: row;
+    }
+    p {
+        font-size: 20px;
+        text-justify: auto;
+    }
+    img {
+        border: 1px solid black;
+    }
+    figcaption {
+        font-size: 22px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}

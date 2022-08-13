@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* 576 ~ 767px (sm, small) */
+@media screen and (max-width: 662px) {
+    body {
+        background-color: rgb(160, 160, 252);
+    }
+
+    header p {
+        font-size: 1.6rem;
+        margin: 2rem 2rem 0 2rem;
+        text-align: center;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    header ul {
+        font-size: 1.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0.8rem 2rem;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+
+    .aside-one h2 {
+        font-size: 1.8rem;
+        margin: 1rem 0 1rem 1.2rem;
+    }
+
+    .aside-one ul {
+        margin-left: 3rem;
+    }
+
+    .aside-one li {
+        margin: 0.5rem;
+    }
+
+    .aside-two h2 {
+        font-size: 1.3rem;
+        margin: 2rem 0 0.6rem 1.2rem;
+    }
+
+    .aside-two li {
+        margin-left: 1.2rem;
+        list-style: none;
+        font-size: 0.9rem;
+    }
+
+    .main-content h1 {
+        margin: 3rem 0 1rem 1.2rem;
+        font-size: 1.8rem;
+        font-style: oblique;
+    }
+
+    .main-content p {
+        font-size: 1rem;
+        text-justify: auto;
+        margin: 1rem 2rem;
+    }
+
+    footer {
+        background-color: rgb(0, 0, 0);
+        padding: 20px 0;
+        margin-top: 2rem;
+    }
+
+    footer h3 {
+        color: white;
+        margin: 0 0 1rem 1.2rem;
+
+        font-size: 1.3rem;
+    }
+
+    footer p {
+        color: white;
+        font-size: 0.9rem;
+        margin: 0 1.2rem;
+        text-justify: auto;
+    }
+
+
+
+
+
+}
+
+/* 768 ~ 991px (md, medium) */
+@media screen and (max-width: 992px) and (min-width: 661px) {
+    body {
+        background-color: green;
+    }
+
+    header p {
+        font-size: 2.6rem;
+        margin: 2rem 2rem 0 2rem;
+        text-align: center;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    header ul {
+        font-size: 1.7rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0.8rem 2rem;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+
+    .aside-one h2 {
+        font-size: 2.4rem;
+        margin: 1.5rem 0 1rem 2.5rem;
+    }
+
+    .aside-one ul {
+        margin-left: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .aside-one li {
+        margin: 0.5rem;
+    }
+
+    .aside-two h2 {
+        font-size: 1.3rem;
+        margin: 2rem 0 0.6rem 2.2rem;
+    }
+
+    .aside-two li {
+        margin-left: 2.2rem;
+        list-style: none;
+        font-size: 1rem;
+    }
+
+    .main-content h1 {
+        margin: 3rem 0 1rem 2.6rem;
+        font-size: 2.4rem;
+        font-style: oblique;
+    }
+
+    .main-content p {
+        font-size: 1.4rem;
+        text-justify: auto;
+        margin: 1rem 2rem;
+    }
+
+    footer {
+        background-color: rgb(0, 0, 0);
+        padding: 2rem;
+
+    }
+
+    footer h3 {
+        color: white;
+        margin: 0 0 1rem 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        color: white;
+        font-size: 1rem;
+        margin: 0 1.2rem;
+        text-justify: auto;
+    }
+
+
+
+
+
+}
+
+
+/* 992 ~ 1199px (lg, large) */
+@media screen and (min-width: 993px) {
+    body {
+        background-color: rgb(255, 255, 151);
+        margin-left: 1rem;
+    }
+
+    header p {
+        font-size: 2.6rem;
+        margin: 2rem 2rem 0 1rem;
+        text-align: center;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    header ul {
+        font-size: 1.7rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0.8rem 1rem;
+        margin-right: 2rem;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+
+    .aside-one h2 {
+        font-size: 2.4rem;
+        margin: 1.5rem 0 1rem 2.5rem;
+    }
+
+    .aside-one ul {
+        margin-left: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .aside-one li {
+        margin: 0.5rem;
+    }
+
+    .aside-two h2 {
+        font-size: 1.3rem;
+        margin: 2rem 0 0.6rem 2.2rem;
+    }
+
+    .aside-two li {
+        margin-left: 2.2rem;
+        list-style: none;
+        font-size: 1rem;
+    }
+
+    .main-content h1 {
+        margin: 3rem 0 1rem 2.6rem;
+        font-size: 2.4rem;
+        font-style: oblique;
+    }
+
+    .main-content p {
+        font-size: 1.4rem;
+        text-justify: auto;
+        margin: 1rem 2rem;
+    }
+
+    footer {
+        background-color: rgb(0, 0, 0);
+        padding: 2rem;
+        margin-left: -1rem;
+
+    }
+
+    footer h3 {
+        color: white;
+        margin: 0 0 1rem 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        color: white;
+        font-size: 1rem;
+        margin: 0 1.2rem;
+        text-justify: auto;
+    }
+
+
+
+
+
+}
