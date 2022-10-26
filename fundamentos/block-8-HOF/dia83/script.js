@@ -23,3 +23,7 @@ const mapeamento = numbers.map((element) =>{
   return criaObjeto;
 })
 console.log(mapeamento)
+
+
+const maisUm = objPeople.map((number) => number.age + 1)
+console.log(maisUm);

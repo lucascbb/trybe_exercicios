@@ -1,26 +1,26 @@
 const numbers = [1, 2, 3, 4, 5];
 const arrAys = [100, 'lucas', true]
 
-// FOR EACH (para repetir todos os elementos de um array;)
-arrAys.forEach( (element, indexArray, array) => { 
+//FOR EACH (para repetir todos os elementos de um array;)
+arrAys.forEach( (element, index, array) => { 
   console.log(`${element}`)
-  console.log(`${indexArray}`);
+  console.log(`${index}`);
   console.log(`${array}`);
 });
 
 
 // SOME (testar se ALGUM elemento de um array satisfaz a uma condição;)
-const algum = () => numbers.some( (num) => {return num === 4} );
+const algum = () => numbers.some( (num) => num === 6 );
 console.log(algum());
 
 
 // EVERY (testar se TODOS os elementos de um array satisfazem a uma condição;)
-const tudo = () => numbers.every( (num) => {return num === 6} );
+const tudo = () => numbers.every( (num) => num > 3);
 console.log(tudo());
 
 
 // FIND (encontra o primeiro elemento de um array que satisfaça a uma condição;)
-const primeiro = numbers.find( (num) => num === 5);
+const primeiro = numbers.find( (num) => num > 3);
 console.log(primeiro)
 
 
